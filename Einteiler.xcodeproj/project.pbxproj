@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9627D741E1A81AF004B2C48 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9627D731E1A81AF004B2C48 /* Person.swift */; };
+		B9627D761E1A9B88004B2C48 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9627D751E1A9B88004B2C48 /* Brain.swift */; };
 		B96FE3341DF8B524005B1EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96FE3331DF8B524005B1EC9 /* AppDelegate.swift */; };
 		B96FE3361DF8B524005B1EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96FE3351DF8B524005B1EC9 /* ViewController.swift */; };
 		B96FE3381DF8B524005B1EC9 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96FE3371DF8B524005B1EC9 /* Document.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9627D731E1A81AF004B2C48 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B9627D751E1A9B88004B2C48 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		B96FE3301DF8B524005B1EC9 /* Einteiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Einteiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96FE3331DF8B524005B1EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96FE3351DF8B524005B1EC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				B96FE3391DF8B524005B1EC9 /* Assets.xcassets */,
 				B96FE33B1DF8B524005B1EC9 /* Main.storyboard */,
 				B96FE33E1DF8B524005B1EC9 /* Info.plist */,
+				B9627D751E1A9B88004B2C48 /* Brain.swift */,
+				B9627D731E1A81AF004B2C48 /* Person.swift */,
 			);
 			path = Einteiler;
 			sourceTree = "<group>";
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Lennart Wisbar";
 				TargetAttributes = {
 					B96FE32F1DF8B524005B1EC9 = {
@@ -138,6 +144,8 @@
 			files = (
 				B96FE3361DF8B524005B1EC9 /* ViewController.swift in Sources */,
 				B96FE3341DF8B524005B1EC9 /* AppDelegate.swift in Sources */,
+				B9627D741E1A81AF004B2C48 /* Person.swift in Sources */,
+				B9627D761E1A9B88004B2C48 /* Brain.swift in Sources */,
 				B96FE3381DF8B524005B1EC9 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +182,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -223,6 +232,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -293,6 +303,7 @@
 				B96FE3431DF8B524005B1EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
